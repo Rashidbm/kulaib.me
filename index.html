@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rashid Binkulaib</title>
+<meta name="description" content="Rashid Binkulaib, AI engineer and researcher in Riyadh.">
+<link rel="canonical" href="https://kulaib.me/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Rashid Binkulaib">
+<meta property="og:description" content="AI engineer and researcher in Riyadh.">
+<meta property="og:url" content="https://kulaib.me/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<style>
+  :root {
+    --bg: #fbfbfa;
+    --text: #1b1b1a;
+    --muted: #6e6e6a;
+    --line: #e7e7e4;
+    --underline: #c4c4bf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110;
+      --text: #ececea;
+      --muted: #9a9a95;
+      --line: #252523;
+      --underline: #4b4b47;
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 7rem 1.25rem 4rem;
+  }
+
+  h1 { font-size: 15px; font-weight: 600; }
+
+  .role { color: var(--muted); }
+
+  section { margin-top: 2.75rem; }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: 0.9rem;
+  }
+
+  p + p { margin-top: 0.9rem; }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--underline);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 0.15s;
+  }
+  a:hover { text-decoration-color: currentColor; }
+
+  ul { list-style: none; }
+
+  .projects li + li { margin-top: 1.25rem; }
+
+  .project-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .project-name { font-weight: 500; }
+
+  .meta {
+    color: var(--muted);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .project-desc { color: var(--muted); margin-top: 0.15rem; }
+
+  .contact li + li { margin-top: 0.3rem; }
+
+  .contact .label {
+    display: inline-block;
+    width: 4.5rem;
+    color: var(--muted);
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 480px) {
+    main { padding-top: 4rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Rashid Binkulaib</h1>
+    <p class="role">AI engineer and researcher, Riyadh</p>
+  </header>
+
+  <section>
+    <p>I'm a Computer Science student at King Saud University and an AI researcher at the university's Research Chair of Online Dialogue and Cultural Communication.</p>
+    <p>I build AI systems end to end, from the data to something people can use.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul class="projects">
+      <li>
+        <div class="project-head">
+          <span class="project-name">Azm</span>
+          <span class="meta">In progress</span>
+        </div>
+        <p class="project-desc">A control model for a hip exoskeleton that helps people walk with less effort. Selected from more than 30,000 projects from 55 countries at SAIF. I'm continuing it with KAUST's Integrated Human Interface Lab.</p>
+      </li>
+      <li>
+        <div class="project-head">
+          <span class="project-name">Samid</span>
+          <span class="meta">2026</span>
+        </div>
+        <p class="project-desc">Detects drones by their sound and finds their direction using low-cost microphone arrays. Selected among the top national projects and incubated by the General Authority for Defense Development.</p>
+      </li>
+      <li>
+        <div class="project-head">
+          <span class="project-name">MultiGuard</span>
+          <span class="meta">2026</span>
+        </div>
+        <p class="project-desc">Fake news detection that checks text and images together. My graduation project. It beats existing systems on standard benchmarks.</p>
+      </li>
+      <li>
+        <div class="project-head">
+          <span class="project-name">Misbar</span>
+          <span class="meta">2026</span>
+        </div>
+        <p class="project-desc">Answers questions from a company's internal documents and shows the sources. 1st place at the Riyadh Valley Company Buildathon.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Before</h2>
+    <p>Three years as an AI engineer at SND Alarkan in Jeddah, building a CRM tool that suggests replies to customers and models that estimate property prices.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul class="contact">
+      <li><span class="label">Email</span><a href="mailto:rashid@kulaib.me">rashid@kulaib.me</a></li>
+      <li><span class="label">GitHub</span><a href="https://github.com/Rashidbm">Rashidbm</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <span id="clock">Riyadh, Saudi Arabia</span>
+  </footer>
+</main>
+<script>
+  const clock = document.getElementById("clock");
+  const format = new Intl.DateTimeFormat("en-US", {
+    timeZone: "Asia/Riyadh",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+  const tick = () => {
+    clock.textContent = format.format(new Date()).toLowerCase() + " in Riyadh";
+  };
+  tick();
+  setInterval(tick, 30000);
+</script>
+</body>
+</html>
